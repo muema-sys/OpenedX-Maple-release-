@@ -15,22 +15,21 @@
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
     
-    // .logo {
-    //   margin-left: 0 !important;
-    //   width: $header-logo-width;
-    //   height: auto !important;
-    // }
+    .logo {
+      margin-left: 0 !important;
+      width: $header-logo-width;
+      height: auto !important;
+    }
 
   }
 }
 
-@media (min-width: 992px)
-{
-  .global-header .nav-links .main .nav-tab a.active, .global-header .nav-links .main .nav-tab a:hover {
+
+  .global-header .nav-links .main .nav-tab a.active {
     border-bottom-style: solid !important;
     border-bottom-color: #72bf44 !important;
 }
-}
+
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   color: #fff !important;
