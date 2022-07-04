@@ -25,7 +25,7 @@
 }
 
 
-.global-header .nav-links .main .nav-tab a.active {
+.main-header .nav-links .main .nav-tab a.active {
     border-bottom-style: solid !important;
     border-bottom-color: #72bf44 !important;
   }
@@ -38,7 +38,7 @@
 }
 
 @media only screen and (max-width: 600px){
-  .global-header .header-logo a {
+  .main-header .header-logo a {
     margin-left: 45px !important;
     padding-bottom: 0px;
     margin-top:0px !important; 
@@ -46,26 +46,26 @@
 }
 
 
-.header-logo a .logo {
+.main-header .header-logo a .logo {
   height: 30px !important;  
   width: auto !important; 
   margin-block-start: 22px !important; 
 }
 
 
-.global-header {
+.main-header {
   border-bottom: 1px solid #72bf44 !important;
 }
 
 
 @media (max-width: 991.98px){
-  .global-header .header-logo a .logo {
+  .main-header .header-logo a .logo {
       margin-left: 33% !important;
   }
 }
 
 @media (max-width: 991.98px) {
-  .global-header .main-header {
+  .main-header .main-header {
         height: 20px !important;
         position: inherit !important;
         margin-bottom: 29px !important;
@@ -73,12 +73,12 @@
 }
 
 @media (min-width: 992px){
-  .global-header .nav-links .main {
+  .main-header .nav-links .main {
       float: left;
       margin: 20px 0 0 20px;
       margin-top: 32px;
   }
-  .global-header .header-logo .course-header {     
+  .main-header .header-logo .course-header {     
     margin-top: 34px;
   }
 }
