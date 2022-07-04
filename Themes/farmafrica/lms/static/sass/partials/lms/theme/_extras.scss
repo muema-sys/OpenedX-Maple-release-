@@ -15,20 +15,20 @@
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
     
-    .logo {
-      margin-left: 0 !important;
-      width: $header-logo-width;
-      height: auto !important;
-    }
+    // .logo {
+    //   margin-left: 0 !important;
+    //   width: $header-logo-width;
+    //   height: auto !important;
+    // }
 
   }
 }
 
 
-  .global-header .nav-links .main .nav-tab a.active {
+.global-header .nav-links .main .nav-tab a.active {
     border-bottom-style: solid !important;
     border-bottom-color: #72bf44 !important;
-}
+  }
 
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -47,14 +47,11 @@
 
 
 .global-header .header-logo a .logo {
-  height: 50px !important;  
+  height: 30px !important;  
   width: auto !important; 
   margin-block-start: 22px !important; 
 }
 
-.header-logo a  {
- margin-top: 0 !important; 
-}
 
 .global-header {
   border-bottom: 1px solid #72bf44 !important;
@@ -69,7 +66,7 @@
 
 @media (max-width: 991.98px) {
   .global-header .main-header {
-        height: 35px !important;
+        height: 20px !important;
         position: inherit !important;
         margin-bottom: 29px !important;
   }
