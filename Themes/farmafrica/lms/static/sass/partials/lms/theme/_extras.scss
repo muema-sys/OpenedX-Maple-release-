@@ -14,22 +14,19 @@
 .header-logo a {
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
-    
-    // .logo {
-    //   margin-left: 0 !important;
-    //   width: $header-logo-width;
-    //   height: auto !important;
-    // }
 
+    .logo {
+      margin-left: 0 !important;
+      width: $header-logo-width;
+      height: auto !important;
+    }
   }
 }
-
 
 .global-header .nav-links .main .nav-tab a.active {
     border-bottom-style: solid !important;
     border-bottom-color: #72bf44 !important;
-  }
-
+}
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   color: #fff !important;
@@ -37,71 +34,7 @@
   border-color: #72bf44 !important;
 }
 
-@media only screen and (max-width: 600px){
-  .global-header .header-logo a {
-    margin-left: 45px !important;
-    padding-bottom: 0px;
-    margin-top:0px !important; 
-  }
-}
-
-
-.global-header .header-logo a .logo {
-//   height: 30px !important;  
-  width: auto !important; 
-  margin-block-start: 22px !important; 
-}
-
-
 .global-header {
   border-bottom: 1px solid #72bf44 !important;
-}
-
-
-@media (max-width: 991.98px){
-  .global-header .header-logo a .logo {
-      margin-left: 33% !important;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .global-header .global-header {
-        // height: 20px !important;
-        position: inherit !important;
-        margin-bottom: 29px !important;
-  }
-}
-
-@media (min-width: 992px){
-  .global-header .nav-links .main {
-      float: left;
-      margin: 20px 0 0 20px;
-      margin-top: 32px;
-  }
-  .global-header .header-logo .course-header {     
-    margin-top: 34px;
-  }
-}
-
-#content.content-wrapper.main-container {  
-    padding: 0 !important;
-    margin-top: 0;
-}
-
-.courses-container {
-  padding: 25px !important;
-  padding-bottom:0 !important;
-}
-
-// body {
-//   font-family: "Montserrat", Arial !important;
-// }
-
-// .progress .wrapper-course-material{
-//   height: 47px !important;
-// }
-
-.wrapper-profile .profile.profile-self .wrapper-profile-field-account-privacy .wrapper-profile-records {
-  display: none !important;
 }
 
