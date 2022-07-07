@@ -15,24 +15,23 @@
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
     
-    // .logo {
-    //   margin-left: 0 !important;
-    //   width: $header-logo-width;
-    //   height: auto !important;
-    // }
+    .logo {
+      margin-left: 0 !important;
+      width: $header-logo-width;
+      height: auto !important;
+    }
 
   }
 }
+// .logo {
+//   height: 30px !important;
+//   margin-block-start: 26px !important ;
+// }
 
-.main-header h1.header-logo a img.logo {
-  height: 30px !important;
-  margin-block-start: 26px !important ;
-}
-
-.global-header {
+header {  
   border-bottom: #72bf44 !important;
 }
 
-.wrapper-footer footer#footer-openedx .wrapper-logo a img {
-  height: 20px;
-}
+// .wrapper-footer footer#footer-openedx .wrapper-logo a img {
+//   height: 20px;
+// }
