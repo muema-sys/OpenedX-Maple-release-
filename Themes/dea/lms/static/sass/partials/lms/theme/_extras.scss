@@ -15,11 +15,11 @@
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
     
-    .logo {
-      // margin-left: 0 !important;
-      //width: $header-logo-width !important;
-      height: 40px  !default;
-    }
+    // .logo {
+    //   // margin-left: 0 !important;
+    //   //width: $header-logo-width !important;
+    //   height: 40px  !default;
+    // }
 
   }
 }
@@ -28,7 +28,8 @@
 //   margin-block-start: 26px !important ;
 // }
 
-header {  
+.header-logo  a .logo{  
+  height: 40px !important;
   border-bottom: #72bf44 !important;
 }
 
